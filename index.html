@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Campfire</title>
+
+	<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-spe-particles-component@1.0.4/dist/aframe-spe-particles-component.min.js"></script>
+</head>
+
+<body>
+	<a-scene id="scene">
+		<a-sky color="#95d8e6"></a-sky>
+		<a-entity camera position="0 2 4" look-controls></a-entity>
+
+		<a-entity position="0 0 0" scale="1 1 1" gltf-model="./assets/logs/scene.gltf"></a-entity>
+
+    <a-entity 
+      spe-particles="
+        texture: assets/fog.png; 
+        velocity: .2 1 0; 
+        velocity-spread: .2 0 .2; 
+        particle-count: 50; 
+        duration:9;
+        max-age: 4; 
+        size: 3,8; 
+        opacity: 0,1,0; 
+        color: #aaa,#222
+      "
+    ></a-entity>
+
+		<a-entity 
+      position="0 0.8 0"
+      spe-particles="
+        texture: assets/explosion_sheet.png; 
+        texture-frames: 5 5; 
+        distribution: sphere; 
+        radius: .1; 
+        particle-count: 1; 
+        max-age: 10; 
+        size: 10; 
+        active-multiplier: .5;
+      "
+    ></a-entity>
+
+    
+
+	</a-scene>
+</body>
+
+</html>

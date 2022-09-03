@@ -1,0 +1,11 @@
+Model Information:
+* title:	Campfire Logs
+* source:	https://sketchfab.com/3d-models/campfire-logs-feaef9f88b244aeb8005154f3e18c8eb
+* author:	trashtalka3000 (https://sketchfab.com/trashtalka3000)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Campfire Logs" (https://sketchfab.com/3d-models/campfire-logs-feaef9f88b244aeb8005154f3e18c8eb) by trashtalka3000 (https://sketchfab.com/trashtalka3000) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
